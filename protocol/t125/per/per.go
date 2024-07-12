@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/tomatome/grdp/glog"
+	"remote/glog"
 
-	"github.com/tomatome/grdp/core"
+	"remote/core"
 )
 
 func ReadEnumerates(r io.Reader) (uint8, error) {

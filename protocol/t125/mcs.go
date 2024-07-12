@@ -8,17 +8,17 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/tomatome/grdp/plugin/cliprdr"
-	"github.com/tomatome/grdp/plugin/rail"
+	"remote/plugin/cliprdr"
+	"remote/plugin/rail"
 
-	"github.com/tomatome/grdp/plugin/drdynvc"
+	"remote/plugin/drdynvc"
 
-	"github.com/tomatome/grdp/core"
-	"github.com/tomatome/grdp/emission"
-	"github.com/tomatome/grdp/glog"
-	"github.com/tomatome/grdp/protocol/t125/ber"
-	"github.com/tomatome/grdp/protocol/t125/gcc"
-	"github.com/tomatome/grdp/protocol/t125/per"
+	"remote/core"
+	"remote/emission"
+	"remote/glog"
+	"remote/protocol/t125/ber"
+	"remote/protocol/t125/gcc"
+	"remote/protocol/t125/per"
 )
 
 // take idea from https://github.com/Madnikulin50/gordp

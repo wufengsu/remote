@@ -6,8 +6,8 @@ import (
 	"crypto/rc4"
 	"strings"
 
-	"github.com/tomatome/grdp/core"
 	"golang.org/x/crypto/md4"
+	"remote/core"
 )
 
 func MD4(data []byte) []byte {

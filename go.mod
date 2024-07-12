@@ -1,4 +1,4 @@
-module github.com/tomatome/remote
+module remote
 
 go 1.18
 

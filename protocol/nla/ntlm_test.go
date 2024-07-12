@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/lunixbochs/struc"
-	"github.com/tomatome/grdp/protocol/nla"
+	"remote/protocol/nla"
 )
 
 func TestNewNegotiateMessage(t *testing.T) {

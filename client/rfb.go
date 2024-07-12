@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/tomatome/grdp/protocol/rfb"
+	"remote/protocol/rfb"
 )
 
 type VncClient struct {

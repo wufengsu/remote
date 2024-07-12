@@ -13,9 +13,9 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/tomatome/grdp/core"
-	"github.com/tomatome/grdp/glog"
 	"github.com/tomatome/win"
+	"remote/core"
+	"remote/glog"
 )
 
 const (
